@@ -1,0 +1,853 @@
+ body {
+ 	width: 100%;
+ 	height: 100%;
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1920px;
+	 height: 4874px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1920px;
+	 height: 4577px;
+	 z-index:1;
+} 
+
+ #YellowSkyBackground 
+{ 
+	 left: 514px; 
+	 top: -65px; 
+	 position: absolute; 
+	 width: 1000px;
+	 height: 1000px;
+	 z-index:2;
+} 
+#YellowSkyBackground img {
+	 width: 1000px;
+	 height: 1000px;
+}
+
+ #ZemedyLeaves07 
+{ 
+	 left: 82px; 
+	 top: 822px; 
+	 position: absolute; 
+	 width: 749px;
+	 height: 425px;
+	 z-index:3;
+} 
+
+ #MiddleGreyBackground 
+{ 
+	 left: -1px; 
+	 top: 1041px; 
+	 position: absolute; 
+	 width: 2731px;
+	 height: 4486px;
+	 z-index:4;
+} 
+
+ #RedBlockBackground 
+{ 
+	 left: -1px; 
+	 top: 4663px; 
+	 position: absolute; 
+	 width: 1922px;
+	 height: 597px;
+	 z-index:5;
+} 
+
+ #BigBackgroundCircle 
+{ 
+	 left: -96px; 
+	 top: 4131px; 
+	 position: absolute; 
+	 width: 2113px;
+	 height: 1349px;
+	 z-index:6;
+} 
+
+ #SideBlobBackground 
+{ 
+	 left: 857px; 
+	 top: 2050px; 
+	 position: absolute; 
+	 width: 1058px;
+	 height: 2013px;
+	 z-index:7;
+} 
+
+ #Ellipse2 
+{ 
+	 left: -736px; 
+	 top: 1188px; 
+	 position: absolute; 
+	 width: 1153px;
+	 height: 1153px;
+	 z-index:8;
+} 
+
+ #2018byBoldHealthLimi 
+{ 
+	 left: 797px; 
+	 top: 4837px; 
+	 position: absolute; 
+	 width: 325px;
+	 height: 22px;
+	 z-index:9;
+} 
+
+ #facebook 
+{ 
+	 left: 1709px; 
+	 top: 4641px; 
+	 position: absolute; 
+	 width: 45px;
+	 height: 45px;
+	 z-index:10;
+} 
+
+ #Twitter 
+{ 
+	 left: 1642px; 
+	 top: 4645px; 
+	 position: absolute; 
+	 width: 48px;
+	 height: 39px;
+	 z-index:11;
+} 
+
+ #FooterLogo 
+{ 
+	 left: 166px; 
+	 top: 4577px; 
+	 position: absolute; 
+	 width: 165px;
+	 height: 155px;
+	 z-index:12;
+} 
+
+ #Whitebox 
+{ 
+	 left: 165px; 
+	 top: 4121px; 
+	 position: absolute; 
+	 width: 1591px;
+	 height: 314px;
+	 z-index:13;
+} 
+
+ #LadyBinoculars 
+{ 
+	 left: 93px; 
+	 top: 4084px; 
+	 position: absolute; 
+	 width: 723px;
+	 height: 359px;
+	 z-index:14;
+} 
+
+ #SendButtoncopy 
+{ 
+	 left: 1385px; 
+	 top: 4234px; 
+	 position: absolute; 
+	 width: 298px;
+	 height: 89px;
+	 z-index:15;
+} 
+
+ #GetEarlyAccesscopy 
+{ 
+	 left: 1453px; 
+	 top: 4272px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 17px;
+	 z-index:16;
+} 
+
+ #EmailBarcopy 
+{ 
+	 left: 756px; 
+	 top: 4234px; 
+	 position: absolute; 
+	 width: 632px;
+	 height: 89px;
+	 z-index:17;
+} 
+
+ #Youremailaddresscopy 
+{ 
+	 left: 790px; 
+	 top: 4272px; 
+	 position: absolute; 
+	 width: 183px;
+	 height: 14px;
+	 z-index:18;
+} 
+
+ #Weknowfirsthandhowch 
+{ 
+	 left: 554px; 
+	 top: 3386px; 
+	 position: absolute; 
+	 width: 807px;
+	 height: 397px;
+	 z-index:19;
+} 
+
+ #WhyUseZemedy 
+{ 
+	 left: 775px; 
+	 top: 3321px; 
+	 position: absolute; 
+	 width: 373px;
+	 height: 41px;
+	 z-index:20;
+} 
+
+ #Linecopy2 
+{ 
+	 left: 944px; 
+	 top: 3292px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 5px;
+	 z-index:21;
+} 
+
+ #Rectangle1 
+{ 
+	 left: 975px; 
+	 top: 2663px; 
+	 position: absolute; 
+	 width: 781px;
+	 height: 344px;
+	 z-index:22;
+} 
+
+ #Trackyoursymptomstou 
+{ 
+	 left: 1208px; 
+	 top: 2835px; 
+	 position: absolute; 
+	 width: 495px;
+	 height: 80px;
+	 z-index:23;
+} 
+
+ #Linecopy 
+{ 
+	 left: 1207px; 
+	 top: 2804px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 5px;
+	 z-index:24;
+} 
+
+ #SymptomandMoodTracki 
+{ 
+	 left: 1209px; 
+	 top: 2754px; 
+	 position: absolute; 
+	 width: 483px;
+	 height: 31px;
+	 z-index:25;
+} 
+
+ #Icon 
+{ 
+	 left: 1018px; 
+	 top: 2756px; 
+	 position: absolute; 
+	 width: 158px;
+	 height: 158px;
+	 z-index:26;
+} 
+
+ #Rectangle1_0 
+{ 
+	 left: 165px; 
+	 top: 2663px; 
+	 position: absolute; 
+	 width: 781px;
+	 height: 344px;
+	 z-index:27;
+} 
+
+ #Gutdirectedhypnother 
+{ 
+	 left: 398px; 
+	 top: 2834px; 
+	 position: absolute; 
+	 width: 469px;
+	 height: 81px;
+	 z-index:28;
+} 
+
+ #Linecopy_0 
+{ 
+	 left: 397px; 
+	 top: 2804px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 5px;
+	 z-index:29;
+} 
+
+ #Hypnotherapy 
+{ 
+	 left: 400px; 
+	 top: 2754px; 
+	 position: absolute; 
+	 width: 232px;
+	 height: 31px;
+	 z-index:30;
+} 
+
+ #Ellipse1 
+{ 
+	 left: 207px; 
+	 top: 2754px; 
+	 position: absolute; 
+	 width: 161px;
+	 height: 162px;
+	 z-index:31;
+} 
+
+ #Layer2 
+{ 
+	 left: 208px; 
+	 top: 2756px; 
+	 position: absolute; 
+	 width: 158px;
+	 height: 158px;
+	 z-index:32;
+} 
+
+ #Rectangle1_1 
+{ 
+	 left: 975px; 
+	 top: 2287px; 
+	 position: absolute; 
+	 width: 781px;
+	 height: 345px;
+	 z-index:33;
+} 
+
+ #Developmindfulnessan 
+{ 
+	 left: 1208px; 
+	 top: 2446px; 
+	 position: absolute; 
+	 width: 488px;
+	 height: 81px;
+	 z-index:34;
+} 
+
+ #Linecopy_1 
+{ 
+	 left: 1207px; 
+	 top: 2415px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 6px;
+	 z-index:35;
+} 
+
+ #Mindfulness 
+{ 
+	 left: 1210px; 
+	 top: 2366px; 
+	 position: absolute; 
+	 width: 194px;
+	 height: 24px;
+	 z-index:36;
+} 
+
+ #Icon_0 
+{ 
+	 left: 1018px; 
+	 top: 2380px; 
+	 position: absolute; 
+	 width: 158px;
+	 height: 158px;
+	 z-index:37;
+} 
+
+ #Rectangle1_2 
+{ 
+	 left: 165px; 
+	 top: 2287px; 
+	 position: absolute; 
+	 width: 781px;
+	 height: 345px;
+	 z-index:38;
+} 
+
+ #Understandthebehavio 
+{ 
+	 left: 398px; 
+	 top: 2445px; 
+	 position: absolute; 
+	 width: 495px;
+	 height: 110px;
+	 z-index:39;
+} 
+
+ #Linecopy_2 
+{ 
+	 left: 397px; 
+	 top: 2414px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 5px;
+	 z-index:40;
+} 
+
+ #CognitiveBehavioralT 
+{ 
+	 left: 399px; 
+	 top: 2365px; 
+	 position: absolute; 
+	 width: 488px;
+	 height: 31px;
+	 z-index:41;
+} 
+
+ #Ellipse1_0 
+{ 
+	 left: 207px; 
+	 top: 2378px; 
+	 position: absolute; 
+	 width: 161px;
+	 height: 162px;
+	 z-index:42;
+} 
+
+ #Icon_1 
+{ 
+	 left: 208px; 
+	 top: 2380px; 
+	 position: absolute; 
+	 width: 158px;
+	 height: 158px;
+	 z-index:43;
+} 
+
+ #Rectangle1_3 
+{ 
+	 left: 975px; 
+	 top: 1911px; 
+	 position: absolute; 
+	 width: 781px;
+	 height: 345px;
+	 z-index:44;
+} 
+
+ #Ourintelligentassist 
+{ 
+	 left: 1207px; 
+	 top: 2082px; 
+	 position: absolute; 
+	 width: 489px;
+	 height: 81px;
+	 z-index:45;
+} 
+
+ #Linecopy_3 
+{ 
+	 left: 1207px; 
+	 top: 2051px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 6px;
+	 z-index:46;
+} 
+
+ #VirtualCoach 
+{ 
+	 left: 1208px; 
+	 top: 2002px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 24px;
+	 z-index:47;
+} 
+
+ #Layer3 
+{ 
+	 left: 1017px; 
+	 top: 2003px; 
+	 position: absolute; 
+	 width: 159px;
+	 height: 159px;
+	 z-index:48;
+} 
+
+ #Rectangle1_4 
+{ 
+	 left: 165px; 
+	 top: 1911px; 
+	 position: absolute; 
+	 width: 781px;
+	 height: 345px;
+	 z-index:49;
+} 
+
+ #Clinicianapprovedinf 
+{ 
+	 left: 398px; 
+	 top: 2082px; 
+	 position: absolute; 
+	 width: 478px;
+	 height: 76px;
+	 z-index:50;
+} 
+
+ #Linecopy_4 
+{ 
+	 left: 397px; 
+	 top: 2051px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 6px;
+	 z-index:51;
+} 
+
+ #InteractiveLearning 
+{ 
+	 left: 400px; 
+	 top: 2002px; 
+	 position: absolute; 
+	 width: 327px;
+	 height: 31px;
+	 z-index:52;
+} 
+
+ #Icon_2 
+{ 
+	 left: 208px; 
+	 top: 2004px; 
+	 position: absolute; 
+	 width: 158px;
+	 height: 158px;
+	 z-index:53;
+} 
+
+ #Personalisedtoyou 
+{ 
+	 left: 1240px; 
+	 top: 1642px; 
+	 position: absolute; 
+	 width: 139px;
+	 height: 50px;
+	 z-index:54;
+} 
+
+ #Ellipse2copy 
+{ 
+	 left: 1229px; 
+	 top: 1459px; 
+	 position: absolute; 
+	 width: 160px;
+	 height: 160px;
+	 z-index:55;
+} 
+
+ #PTYIcon 
+{ 
+	 left: 1230px; 
+	 top: 1459px; 
+	 position: absolute; 
+	 width: 159px;
+	 height: 159px;
+	 z-index:56;
+} 
+
+ #MindInterventions 
+{ 
+	 left: 1006px; 
+	 top: 1642px; 
+	 position: absolute; 
+	 width: 142px;
+	 height: 45px;
+	 z-index:57;
+} 
+
+ #MIIcon 
+{ 
+	 left: 996px; 
+	 top: 1458px; 
+	 position: absolute; 
+	 width: 161px;
+	 height: 161px;
+	 z-index:58;
+} 
+
+ #BodyInterventions 
+{ 
+	 left: 774px; 
+	 top: 1643px; 
+	 position: absolute; 
+	 width: 142px;
+	 height: 44px;
+	 z-index:59;
+} 
+
+ #BIIcon 
+{ 
+	 left: 766px; 
+	 top: 1459px; 
+	 position: absolute; 
+	 width: 159px;
+	 height: 159px;
+	 z-index:60;
+} 
+
+ #InteractiveLearning_0 
+{ 
+	 left: 555px; 
+	 top: 1642px; 
+	 position: absolute; 
+	 width: 117px;
+	 height: 50px;
+	 z-index:61;
+} 
+
+ #ILIcon 
+{ 
+	 left: 534px; 
+	 top: 1459px; 
+	 position: absolute; 
+	 width: 159px;
+	 height: 159px;
+	 z-index:62;
+} 
+
+ #Theonlypersonalisedd 
+{ 
+	 left: 645px; 
+	 top: 1352px; 
+	 position: absolute; 
+	 width: 629px;
+	 height: 52px;
+	 z-index:63;
+} 
+
+ #SmartEffectiveHolist 
+{ 
+	 left: 692px; 
+	 top: 1290px; 
+	 position: absolute; 
+	 width: 536px;
+	 height: 37px;
+	 z-index:64;
+} 
+
+ #Linecopy_5 
+{ 
+	 left: 943px; 
+	 top: 1262px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 6px;
+	 z-index:65;
+} 
+
+ #Girl 
+{ 
+	 left: 700px; 
+	 top: -2px; 
+	 position: absolute; 
+	 width: 544px;
+	 height: 965px;
+	 z-index:66;
+} 
+
+ #Ellipse3 
+{ 
+	 left: 1426px; 
+	 top: 203px; 
+	 position: absolute; 
+	 width: 15px;
+	 height: 14px;
+	 z-index:67;
+} 
+
+ #Ellipse3_0 
+{ 
+	 left: 1311px; 
+	 top: 407px; 
+	 position: absolute; 
+	 width: 8px;
+	 height: 8px;
+	 z-index:68;
+} 
+
+ #Ellipse3_1 
+{ 
+	 left: 1689px; 
+	 top: 462px; 
+	 position: absolute; 
+	 width: 8px;
+	 height: 8px;
+	 z-index:69;
+} 
+
+ #Ellipse3_2 
+{ 
+	 left: 1473px; 
+	 top: 193px; 
+	 position: absolute; 
+	 width: 7px;
+	 height: 8px;
+	 z-index:70;
+} 
+
+ #SendButton 
+{ 
+	 left: 794px; 
+	 top: 603px; 
+	 position: absolute; 
+	 width: 300px;
+	 height: 87px;
+	 z-index:71;
+} 
+
+ #GetEarlyAccess 
+{ 
+	 left: 863px; 
+	 top: 640px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 17px;
+	 z-index:72;
+} 
+
+ #EmailBar 
+{ 
+	 left: 165px; 
+	 top: 603px; 
+	 position: absolute; 
+	 width: 632px;
+	 height: 87px;
+	 z-index:73;
+} 
+
+ #Youremailaddress 
+{ 
+	 left: 200px; 
+	 top: 640px; 
+	 position: absolute; 
+	 width: 183px;
+	 height: 14px;
+	 z-index:74;
+} 
+
+ #RelieveyourIBSwithpi 
+{ 
+	 left: 165px; 
+	 top: 437px; 
+	 position: absolute; 
+	 width: 744px;
+	 height: 112px;
+	 z-index:75;
+} 
+
+ #Line 
+{ 
+	 left: 165px; 
+	 top: 400px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 4px;
+	 z-index:76;
+} 
+
+ #Yourpartnerinhealing 
+{ 
+	 left: 164px; 
+	 top: 328px; 
+	 position: absolute; 
+	 width: 638px;
+	 height: 53px;
+	 z-index:77;
+} 
+
+ #Button 
+{ 
+	 left: 1557px; 
+	 top: 37px; 
+	 position: absolute; 
+	 width: 199px;
+	 height: 60px;
+	 z-index:78;
+} 
+
+ #GetStarted 
+{ 
+	 left: 1600px; 
+	 top: 61px; 
+	 position: absolute; 
+	 width: 112px;
+	 height: 14px;
+	 z-index:79;
+} 
+
+ #Blog 
+{ 
+	 left: 1459px; 
+	 top: 61px; 
+	 position: absolute; 
+	 width: 42px;
+	 height: 17px;
+	 z-index:80;
+} 
+
+ #About 
+{ 
+	 left: 1355px; 
+	 top: 61px; 
+	 position: absolute; 
+	 width: 60px;
+	 height: 14px;
+	 z-index:81;
+} 
+
+ #Home 
+{ 
+	 left: 1258px; 
+	 top: 61px; 
+	 position: absolute; 
+	 width: 55px;
+	 height: 14px;
+	 z-index:82;
+} 
+
+ #Logo 
+{ 
+	 left: 167px; 
+	 top: 45px; 
+	 position: absolute; 
+	 width: 196px;
+	 height: 45px;
+	 z-index:83;
+} 

@@ -9,6 +9,12 @@ h3 {
   font-weight: 400 !important;
   letter-spacing: 2px; }
 
+.float-left {
+  float: left; }
+
+.float-right {
+  float: left; }
+
 .hr_black {
   width: 35px;
   border-color: black;
@@ -21,23 +27,22 @@ h3 {
 
 .landing_bg_img {
   position: absolute;
-  left: 700px;
-  top: -105px;
-  width: 800px;
-  height: 800px;
+  left: 220px;
+  top: -340px;
+  height: 1200px;
   z-index: 0; }
 
 .landing_svg_img {
-  left: 950px;
+  left: 936px;
   top: 0px;
   position: absolute;
-  width: 354px;
-  height: 600px;
+  width: 454px;
+  height: 750px;
   z-index: 0; }
 
 .landing_btm_img {
   position: absolute;
-  top: 530px;
+  top: 612px;
   left: 35px;
   height: 300px; }
 
@@ -50,10 +55,17 @@ h3 {
 
 .sub-svg-img {
   position: absolute;
-  top: 2050px;
+  top: 2083px;
   left: 72px;
   height: 250px;
   z-index: 11; }
+
+.btm-circle {
+  bottom: 0;
+  position: absolute;
+  width: 2084px;
+  left: -240px;
+  z-index: 0; }
 
 .ft-side-bg {
   position: absolute;
@@ -78,7 +90,7 @@ header {
   z-index: 10; }
   header img {
     padding-top: 6px;
-    height: 30px; }
+    height: 45px; }
   header ul {
     color: gray;
     float: right;
@@ -86,23 +98,24 @@ header {
     position: relative;
     z-index: 3; }
     header ul li {
-      font-size: 0.9em;
+      font-size: 1.25em;
       float: left;
-      margin: 0 14px; }
+      margin: 0 1.3em; }
 
 .header-ls {
-  padding-top: 6px;
+  padding-top: .8em;
   cursor: pointer; }
 
 .header-button {
   background: #EB5F55 !important;
   color: white !important;
-  padding: 6px 20px !important;
-  font-size: 0.9em !important; }
+  padding: .5em 2em !important;
+  font-size: 1.25em !important; }
 
 /* LANDING STYLES */
 .landing-cont {
-  background: #F9F9F9; }
+  background: #F9F9F9;
+  height: 678px; }
 
 .landing-text {
   width: 100%;
@@ -124,7 +137,7 @@ header {
   width: 100%;
   position: relative;
   z-index: 100;
-  padding: 6em 6em 0 6em; }
+  padding: 10em 6em 0 6em; }
 
 .features_info {
   text-align: center;
@@ -139,14 +152,15 @@ header {
   z-index: 10; }
 
 .ft-img {
-  height: 120px;
+  height: 150px;
   margin-bottom: 1em; }
 
 .features_card {
   padding: 2em;
   background: #F9F9F9;
   width: 102%;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  height: 208px; }
 
 .ft-cd-img {
   height: 120px; }
@@ -163,8 +177,26 @@ header {
 
 .subscribe-box {
   background: #F9F9F9;
-  padding: 4.5em 2em;
+  padding: 5em 2em;
   position: relative;
-  z-index: 10; }
+  z-index: 10;
+  margin-bottom: 7em; }
+
+.footer-cont {
+  padding-top: 10em; }
+
+.footer-logo {
+  padding-bottom: 3em;
+  z-index: 10;
+  position: relative; }
+
+.footer-cw {
+  text-align: center;
+  position: relative;
+  bottom: -129px; }
+
+.footer-socials {
+  z-index: 10;
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */

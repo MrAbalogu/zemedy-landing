@@ -9,16 +9,89 @@
 			<link href="styles/main.css" rel="stylesheet" type="text/css">
 
 	</head>
-	<body>
+	<style type="text/css">
+		
+
+/* GENERAL BUTTON STYLING */
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #2ecc71;
+  cursor: pointer;
+}
+
+/* BUTTON 5 */
+.btn-5 {
+  overflow: hidden;
+  padding: .79em 2em !important;
+  font-size: 1em !important;
+  margin: 0 !important;
+  border: none;
+  color:#C84D44;
+  border: 1px solid #C84D44;
+}
+
+.btn-5:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.btn-5::after {
+  background-color: #C84D44;
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0;
+}
+
+.btn-5:hover:after {
+  height: 100%;
+  width: 135%;
+}
+	</style>
+	<body id="home_section">
 		<img src="images/YellowSkyBackground.png" class="landing_bg_img">
 		<img src="images/Girl.png" class="landing_svg_img">
 		<header>
-			<img src="images/Logo.png">
+			<a href="index.html"> <img src="images/Logo.png"> </a>
 			<ul>
-				<li class="header-ls">Home</li>
-				<li class="header-ls">About</li>
+				<li id="home_btn" class="header-ls">Home</li>
+				<li id="about_btn" class="header-ls">About</li>
 				<li class="header-ls">Blog</li>
-				<li><a class="btn btn-danger header-button"> Get Started </a></li>
+				<li>
+					<button class="btn-5">Get Started</button>
+				</li>
 			</ul>
 		</header>
 
@@ -37,7 +110,7 @@
 			<img src="images/ZemedyLeaves07.png" class="landing_btm_img">
 		</div>
 
-		<div class="features-cont">
+		<div id="about_section" class="features-cont">
 			<div class="features_info">
 				<hr class="hr_red">
 				<h3>Smart, Effective, Holistic</h3>
@@ -182,8 +255,28 @@
 		</div>
 		<!-- Optional JavaScript -->
 	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
  	</body>
  </html>
+
+<script type="text/javascript">
+	$(function(){
+		console.log("im here");
+		$("#home_btn").click(function() {
+			console.log('clicked');
+		    $('html, body').animate({
+		        scrollTop: $("#home_section").offset().top
+		    }, 2000);
+		});
+		$("#about_btn").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#about_section").offset().top
+		    }, 2000);
+		});
+	})
+</script> 	

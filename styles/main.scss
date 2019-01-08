@@ -37,10 +37,10 @@ h3 {
 }
 .landing_svg_img {
 	left: 60%;
-	top: 0px;
+	top: -46px;
 	position: fixed;
-	width: 326px;
-	height: 569px;
+	width: 426px;
+    height: 669px;
 	z-index: 0;
 }
 .landing_btm_img {
@@ -58,7 +58,7 @@ h3 {
 }
 .sub-svg-img {
 	position: absolute;
-    top: 74.5%;
+    top: 74.79%;
 	left: 49px;
     height: 250px;
     z-index: 11;
@@ -67,7 +67,7 @@ h3 {
     bottom: 0;
     position: absolute;
     width: 2084px;
-    left: -32%;
+    left: -24%;
     z-index: 0;
 }
 .ft-side-bg {
@@ -77,20 +77,24 @@ h3 {
     z-index: 0;
 }
 .access-button {
-	background: $red !important;
+	background: $red;
 	padding: 1.4em 4em !important;
 	color: white !important;
 	border: none !important;
 	cursor: pointer;
+	&:hover {
+		background: #AE4039 !important;
+	}
 }
 .my-form {
 	width: 50%;
 }
 /* HEADER STYLES */
 header {
+  position: fixed;
+  width: 100%;
   padding: 2em 6em;
-  background: #F9F9F9;
-  z-index: 10;
+  z-index: 1000;
   img {
   	padding-top: 6px;
   	height: 45px;
@@ -104,7 +108,7 @@ header {
 	position: relative;
 	z-index: 3;
 	li {
-		font-size: 1.25em;
+		font-size: 0.9em;
 		float: left;
 		margin: 0 1.3em;
 	}
@@ -113,12 +117,16 @@ header {
 .header-ls {
 	padding-top: .8em;
 	cursor: pointer;
+	&:hover {
+		color: black;
+		text-decoration: underline;
+	}
 }
 .header-button {
 	background: $red !important;
 	color: white !important;
 	padding: .5em 2em !important; 
-	font-size: 1.25em !important;
+	font-size: 1.15em !important;
 }
 /* LANDING STYLES */
 .landing-cont {
@@ -128,7 +136,7 @@ header {
 }
 .landing-text {
 	width: 100%;
-	padding: 6em 6em 13em 6em;
+	padding: 11em 6em 13em 6em;
 	position: relative;
 	z-index: 10;
 	p {
@@ -193,7 +201,7 @@ header {
 }
 .subscribe-box {
 	background: #F9F9F9;
-	padding: 5em 2em;
+	padding: 6em 2em;
 	position: relative;
 	z-index: 10;
 	margin-bottom: 7em;
@@ -214,9 +222,12 @@ header {
 	text-align: center;
 	position: relative;
     bottom: -129px;
+    bottom: -176px;
+    left: -67px;
 }
 .footer-socials {
 	z-index: 10;
+	padding-top: 55px;
     position: relative;
 }
 @media screen and (max-width: 500px) {

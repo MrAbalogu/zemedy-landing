@@ -27,13 +27,13 @@ h3 {
 
 .landing_bg_img {
   position: fixed;
-  left: -10%;
+  left: -1%;
   top: -43%;
   height: 1200px;
   z-index: 0; }
 
 .landing_svg_img {
-  left: 55%;
+  left: 59%;
   top: 0px;
   position: fixed;
   width: 326px;
@@ -55,7 +55,7 @@ h3 {
 
 .sub-svg-img {
   position: absolute;
-  top: 75.1%;
+  top: 74.5%;
   left: 49px;
   height: 250px;
   z-index: 11; }

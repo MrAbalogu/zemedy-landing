@@ -5,7 +5,7 @@ $red: #EB5F55;
 /* GLOBAL STYLES */
 html, body {
 	width: 100%;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 h3 {
 	font-size: 2.2em !important;
@@ -29,19 +29,19 @@ h3 {
 	align: center !important;
 }
 .landing_bg_img {
-	position: absolute;
-    left: 220px;
-    top: -340px;
-    height: 1200px;
-    z-index: 0;
+	position: fixed;
+	left: -10%;
+	top: -43%;
+	height: 1200px;
+	z-index: 0;
 }
 .landing_svg_img {
-	left: 936px;
-    top: 0px;
-    position: absolute;
-    width: 454px;
-    height: 750px;
-    z-index: 0;
+	left: 55%;
+	top: 0px;
+	position: fixed;
+	width: 326px;
+	height: 569px;
+	z-index: 0;
 }
 .landing_btm_img {
 	position: absolute;
@@ -58,8 +58,8 @@ h3 {
 }
 .sub-svg-img {
 	position: absolute;
-    top: 2100px;
-    left: 72px;
+    top: 75.1%;
+	left: 49px;
     height: 250px;
     z-index: 11;
 }	
@@ -67,7 +67,7 @@ h3 {
     bottom: 0;
     position: absolute;
     width: 2084px;
-    left: -240px;
+    left: -32%;
     z-index: 0;
 }
 .ft-side-bg {
@@ -94,6 +94,8 @@ header {
   img {
   	padding-top: 6px;
   	height: 45px;
+  	position: relative;
+  	z-index: 10;
   }
   ul {
   	color: gray;
@@ -120,12 +122,14 @@ header {
 }
 /* LANDING STYLES */
 .landing-cont {
+	width: 100%;
 	background: #F9F9F9;
 	height: 678px;
 }
 .landing-text {
 	width: 100%;
 	padding: 6em 6em 13em 6em;
+	position: relative;
 	z-index: 10;
 	p {
 		font-size: $landing_font_size;
@@ -160,7 +164,7 @@ header {
 	z-index: 10;
 }
 .ft-img {
-	height: 150px;
+	height: 90px;
 	margin-bottom: 1em;
 }
 .features_card {
@@ -206,4 +210,9 @@ header {
 .footer-socials {
 	z-index: 10;
     position: relative;
+}
+@media screen and (max-width: 500px) {
+	header ul li {
+		margin: 0 1em !important;
+	}
 }

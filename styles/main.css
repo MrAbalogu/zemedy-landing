@@ -150,6 +150,9 @@ header {
   .features_info p {
     margin-bottom: 2em; }
 
+.info_icons {
+  padding: 0 18em; }
+
 .features_more_info {
   margin-top: 10em;
   position: relative;
@@ -157,7 +160,8 @@ header {
 
 .ft-img {
   height: 90px;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  margin-top: 1em; }
 
 .features_card {
   padding: 2em;
@@ -186,6 +190,10 @@ header {
   z-index: 10;
   margin-bottom: 7em; }
 
+.sub-form {
+  margin-left: 40%;
+  width: 57%; }
+
 .footer-cont {
   padding-top: 10em; }
 
@@ -204,7 +212,71 @@ header {
   position: relative; }
 
 @media screen and (max-width: 500px) {
+  header ul {
+    position: absolute;
+    margin-left: -5em; }
   header ul li {
-    margin: 0 1em !important; } }
+    margin: 0 1em !important; }
+
+  .landing_bg_img {
+    display: none; }
+
+  .landing_svg_img {
+    display: none; }
+
+  .feature_bg_img {
+    display: none; }
+
+  .ft-side-bg {
+    display: none; }
+
+  .sub-svg-img {
+    display: none; }
+
+  .btm-circle {
+    display: none; }
+
+  .landing_btm_img {
+    display: none; }
+
+  .landing-text {
+    padding: 9em 2em 6em 2em !important; }
+
+  .my-form {
+    width: 100% !important; }
+
+  .my_input_form {
+    width: 100% !important; }
+
+  .features-cont {
+    padding: 6em 2em 0 2em !important; }
+
+  .info_icons {
+    padding: 0 !important; }
+
+  .features_more_info {
+    margin-top: 6em; }
+
+  .ft-cd-img {
+    height: 50px; }
+
+  .features_card {
+    padding: 1em;
+    font-size: 0.8em;
+    background: #F9F9F9;
+    width: 109%;
+    margin-bottom: 15px;
+    height: 208px; }
+
+  .why_use {
+    margin: 6em 0 !important;
+    padding: 0 !important; }
+
+  .sub-form {
+    margin: 0 !important;
+    width: 100% !important; }
+
+  .footer-cont {
+    padding: 0 !important; } }
 
 /*# sourceMappingURL=main.css.map */

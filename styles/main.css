@@ -289,6 +289,9 @@ header {
     padding: 0 !important; }
 
   .footer-cw {
-    bottom: -150px !important; } }
+    bottom: -150px !important; }
+
+  #getstarted_btn {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

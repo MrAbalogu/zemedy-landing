@@ -78,10 +78,22 @@ h3 {
 }
 .access-button {
 	background: $red;
-	padding: 1.4em 3em !important;
+	padding: 1.4em 3em;
 	color: white !important;
 	border: none !important;
 	cursor: pointer;
+	margin: 0 !important;
+	&:hover {
+		background: #AE4039 !important;
+	}
+}
+.subscribe-button {
+	background: $red;
+	padding: 1.4em 3em;
+	color: white !important;
+	border: none !important;
+	cursor: pointer;
+	margin: 0 !important;
 	&:hover {
 		background: #AE4039 !important;
 	}
@@ -232,6 +244,8 @@ header {
 }
 @media screen and (max-width: 500px) {
 	header { 
+		position: static;
+		background: #F9F9F9;
 		ul {
 			position: absolute;
     		margin-left: -3em;
@@ -262,7 +276,7 @@ header {
 		display:none;
 	}
 	.landing-text {
-		padding: 12em 2em 6em 2em !important;
+		padding: 4em 2em 6em 2em !important;
 	}
 	.my-form {
 		width: 100% !important;
@@ -306,5 +320,11 @@ header {
 	}
 	#getstarted_btn {
 		display: none;
+	}
+	.access-button {
+		padding: 1.4em 5.75em !important; 
+	}
+	.subscribe-button {
+		padding: 1.4em 3.76em !important; 
 	}
 }

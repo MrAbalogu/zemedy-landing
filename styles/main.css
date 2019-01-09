@@ -75,11 +75,22 @@ h3 {
 
 .access-button {
   background: #EB5F55;
-  padding: 1.4em 3em !important;
+  padding: 1.4em 3em;
   color: white !important;
   border: none !important;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 0 !important; }
   .access-button:hover {
+    background: #AE4039 !important; }
+
+.subscribe-button {
+  background: #EB5F55;
+  padding: 1.4em 3em;
+  color: white !important;
+  border: none !important;
+  cursor: pointer;
+  margin: 0 !important; }
+  .subscribe-button:hover {
     background: #AE4039 !important; }
 
 .my-form {
@@ -221,11 +232,14 @@ header {
   position: relative; }
 
 @media screen and (max-width: 500px) {
-  header ul {
-    position: absolute;
-    margin-left: -3em; }
-  header ul li {
-    margin: 0 1em !important; }
+  header {
+    position: static;
+    background: #F9F9F9; }
+    header ul {
+      position: absolute;
+      margin-left: -3em; }
+    header ul li {
+      margin: 0 1em !important; }
 
   .landing_bg_img {
     display: none; }
@@ -249,7 +263,7 @@ header {
     display: none; }
 
   .landing-text {
-    padding: 12em 2em 6em 2em !important; }
+    padding: 4em 2em 6em 2em !important; }
 
   .my-form {
     width: 100% !important; }
@@ -292,6 +306,12 @@ header {
     bottom: -150px !important; }
 
   #getstarted_btn {
-    display: none; } }
+    display: none; }
+
+  .access-button {
+    padding: 1.4em 5.75em !important; }
+
+  .subscribe-button {
+    padding: 1.4em 3.76em !important; } }
 
 /*# sourceMappingURL=main.css.map */

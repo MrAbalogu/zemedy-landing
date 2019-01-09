@@ -234,7 +234,7 @@ header {
 	header { 
 		ul {
 			position: absolute;
-    		margin-left: -5em;
+    		margin-left: -3em;
 		}
 		ul li {
 			margin: 0 1em !important;
@@ -262,7 +262,7 @@ header {
 		display:none;
 	}
 	.landing-text {
-		padding: 9em 2em 6em 2em !important;
+		padding: 12em 2em 6em 2em !important;
 	}
 	.my-form {
 		width: 100% !important;
@@ -300,5 +300,8 @@ header {
 	}
 	.footer-cont {
 	    padding: 0 !important;
+	}
+	.footer-cw {
+		bottom: -150px !important;
 	}
 }

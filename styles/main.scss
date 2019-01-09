@@ -12,6 +12,24 @@ h3 {
 	font-weight: 400 !important;
 	letter-spacing: 2px;
 }
+.twitter {
+	display: inline-block;
+}
+.twitter2 {
+	display: none;
+}
+.facebook {
+	display: inline-block;
+}
+.facebook2 {
+	display: none;
+}
+.btm_logo {
+	display: inline-block;
+}
+.btm_logo2 {
+	display: none;
+}
 .float-left {
 	float: left;
 }
@@ -316,15 +334,38 @@ header {
 	    padding: 0 !important;
 	}
 	.footer-cw {
-		bottom: -150px !important;
+		bottom: -200px !important;
 	}
 	#getstarted_btn {
 		display: none;
 	}
 	.access-button {
+		margin-top: 10px !important;
 		padding: 1.4em 5.9em !important; 
 	}
 	.subscribe-button {
+		margin-top: 10px !important;
 		padding: 1.4em 3.9em !important; 
+	}
+	.twitter {
+		display: none !important;
+	}
+	.twitter2 {
+		margin-bottom: 3em;
+		display: inline-block !important;
+	}
+	.facebook {
+		display: none !important;
+	}
+	.facebook2 {
+		margin-bottom: 3em;
+		display: inline-block !important;
+	}
+	.btm_logo {
+		display: none !important;
+	}
+	.btm_logo2 {
+		margin-bottom: 3em;
+		display: inline-block !important;
 	}
 }

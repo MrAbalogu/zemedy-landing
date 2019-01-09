@@ -90,7 +90,7 @@ button:hover {
 				<li id="about_btn" class="header-ls">About</li>
 				<li class="header-ls">Blog</li>
 				<li>
-					<button class="btn-5">Get Started</button>
+					<button id="getstarted_btn" class="btn-5">Get Started</button>
 				</li>
 			</ul>
 		</header>
@@ -230,7 +230,7 @@ button:hover {
 			<img src="images/SideBlobBackground.png" class="ft-side-bg">
 			<img src="images/LadyBinoculars.png" class="sub-svg-img">
 
-			<div class="subscribe-box">
+			<div id="subscribe_form" class="subscribe-box">
 				<div class="input-group sub-form">
 				  <input type="text" class="form-control input-form" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
 				  <div class="input-group-append">
@@ -274,8 +274,12 @@ button:hover {
 		    }, 2000);
 		});
 		$("#about_btn").click(function() {
+		    window.open("https://www.bold.health/about.html", '_blank')
+		});
+		$("#getstarted_btn").click(function() {
+			console.log('clicked');
 		    $('html, body').animate({
-		        scrollTop: $("#about_section").offset().top
+		        scrollTop: $("#subscribe_form").offset().top
 		    }, 2000);
 		});
 	})

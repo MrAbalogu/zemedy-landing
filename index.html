@@ -86,7 +86,7 @@ button:hover {
 	<body id="home_section">
 		<img src="images/YellowSkyBackground.png" class="landing_bg_img">
 		<img src="images/Girl.png" class="landing_svg_img">
-		<header>
+		<header id="header">
 			<a href="index.html"> <img src="images/Logo.png"> </a>
 			<ul>
 				<li id="home_btn" class="header-ls">Home</li>
@@ -308,5 +308,14 @@ button:hover {
 		        scrollTop: $("#subscribe_form").offset().top
 		    }, 2000);
 		});
+		$(window).scroll(function() {
+	        var scroll = $(window).scrollTop();
+	        if (scroll >= 100) {
+	            $("#header").addClass("add_bg");
+	        } else {
+	            $("#header").removeClass("add_bg");
+	        }
+	        
+	    });
 	})
 </script> 	
